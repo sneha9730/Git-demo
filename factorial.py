@@ -1,6 +1,6 @@
-def factorial(num):
-    if num == 1:
+def factorial(x):
+    if x == 1 or x == 0:
         return 1
     else:
-        return num*factorial(num-1)
-print(factorial(5))
+        return (x * factorial(x-1))
+print(factorial(10))
