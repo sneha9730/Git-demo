@@ -13,4 +13,4 @@ def calculator():
     else:
         return "Invalid operator!"
     
-print(calculator())
+print("Result",calculator())
